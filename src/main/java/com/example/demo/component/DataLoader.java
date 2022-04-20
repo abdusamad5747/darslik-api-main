@@ -39,8 +39,8 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         User user = new User();
-        user.setUsername("Aziz");
-        user.setPassword(passwordEncoder.encode("4843"));
+        user.setUsername("Abdusamad");
+        user.setPassword(passwordEncoder.encode("123"));
         Role student = new Role( RoleEnum.ROLE_USER);
         List <PermissionEnum> permissionEnums = new ArrayList<>();
         permissionEnums.add(PermissionEnum.READ_BOOK);
